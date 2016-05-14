@@ -39,12 +39,7 @@ angular.module('spacePirates', [
       })
       .state('menu.instructions', {
         url: '/instructions',
-        template: '<md-toolbar>\
-                    <h1 class="md-toolbar-tools">How To Play</h1>\
-                  </md-toolbar>\
-                  <md-card>\
-                    <md-card-title>Follow all the Rules!!!</md-card-title>\
-                  </md-card>',
+        templateUrl: 'main-app/instructions/instructions.html',
         authenticate: true
       })
       .state('logout', {
