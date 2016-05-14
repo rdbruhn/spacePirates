@@ -23,7 +23,12 @@ body {
 }
 
 .games-window {
-  height: 585px;
+  height: 590px;
+  overflow: auto;
+}
+
+.instructions-window {
+  height: 638px;
   overflow: auto;
 }
 
